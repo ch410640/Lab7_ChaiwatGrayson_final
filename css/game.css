@@ -1,0 +1,24 @@
+.background    { background: url("vortex.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(200, 50, 100); }
+.wall          { background: blue;   }
+
+.actor  { position: absolute;  }
+.player { background:url('bunny.png') }
+.coin { background:url("coin.png")}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.lost .player {
+  background: #2E2E2E;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
